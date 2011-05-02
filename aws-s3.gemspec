@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name              = 'aws-s3'
+  s.name              = 'aws-s3-multi-region'
   s.version           = "0.6.3"
   s.summary           = "Client library for Amazon's Simple Storage Service's REST API"
   s.description       = s.summary
@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.author            = 'Marcel Molina Jr.'
   s.has_rdoc          = true
   s.extra_rdoc_files  = %w(README COPYING INSTALL)
-  s.homepage          = 'http://amazon.rubyforge.org'
+  s.homepage          = 'http://github.com/jwinter/aws-s3'
   s.rubyforge_project = 'amazon'
   s.files             = ['Rakefile', 'lib/aws/s3.rb', 'lib/aws/s3/acl.rb', 'lib/aws/s3/authentication.rb', 'lib/aws/s3/base.rb', 'lib/aws/s3/bittorrent.rb', 'lib/aws/s3/bucket.rb', 'lib/aws/s3/connection.rb', 'lib/aws/s3/error.rb', 'lib/aws/s3/exceptions.rb', 'lib/aws/s3/extensions.rb', 'lib/aws/s3/logging.rb', 'lib/aws/s3/object.rb', 'lib/aws/s3/owner.rb', 'lib/aws/s3/parsing.rb', 'lib/aws/s3/response.rb', 'lib/aws/s3/service.rb', 'lib/aws/s3/version.rb', 'bin/setup.rb', 'bin/s3sh']
   s.executables       << 's3sh'
